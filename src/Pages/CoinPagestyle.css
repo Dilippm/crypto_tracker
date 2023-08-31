@@ -1,0 +1,8 @@
+/* Apply column layout to the outer div at the "md" breakpoint (960px by default) */
+@media (width: 500px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
